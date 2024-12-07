@@ -7,7 +7,8 @@
 }
 
 #hero {
-  height: 50vh;
+  margin-top: 80px;
+  height: 400px;
   background-image: url(/assets/images/breadcumb-1.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -161,7 +162,12 @@
   background-color: #36348e;
   color: white;
 }
-#graduate .graduate-wrapper .graduate-right .graduate-cards .graduate-card .graduate-card-head {
+#graduate
+  .graduate-wrapper
+  .graduate-right
+  .graduate-cards
+  .graduate-card
+  .graduate-card-head {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -169,11 +175,22 @@
   flex-direction: row;
   gap: 0px;
 }
-#graduate .graduate-wrapper .graduate-right .graduate-cards .graduate-card .graduate-card-head h2 {
+#graduate
+  .graduate-wrapper
+  .graduate-right
+  .graduate-cards
+  .graduate-card
+  .graduate-card-head
+  h2 {
   font-size: 48px;
   font-family: "Hind Mysuru", sans-serif;
 }
-#graduate .graduate-wrapper .graduate-right .graduate-cards .graduate-card .grad-desc {
+#graduate
+  .graduate-wrapper
+  .graduate-right
+  .graduate-cards
+  .graduate-card
+  .grad-desc {
   font-family: "Inter", sans-serif;
 }
 
@@ -412,6 +429,7 @@
 
 #campus {
   padding: 50px 0;
+  padding-bottom: 100px;
 }
 #campus .campus-wrapper {
   display: flex;
@@ -446,4 +464,4 @@
   text-decoration: none;
   color: #36348e;
   font-family: "Inter", sans-serif;
-}/*# sourceMappingURL=about.css.map */
+} /*# sourceMappingURL=about.css.map */
