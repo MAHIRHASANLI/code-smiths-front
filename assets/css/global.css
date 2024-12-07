@@ -30,6 +30,8 @@ a {
   top: 0;
   left: 0;
   right: 0;
+  background-color: #ffff;
+  z-index: 994;
 }
 .nav-top-wrapper {
   background-color: #36348e;
