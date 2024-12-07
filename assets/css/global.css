@@ -244,14 +244,33 @@ a {
   top: -40%;
 }
 #footer #foot .containes .bgimg {
+  padding: 50px;
   height: 200px;
-  background: linear-gradient(
-      0deg,
-      rgba(38, 255, 0, 0.4),
-      rgba(0, 255, 55, 0.6)
-    ),
-    url(../images/breadcumb-1.png);
+  background: linear-gradient(0deg, rgba(38, 255, 0, 0.4), rgba(0, 255, 55, 0.6)), url(../images/breadcumb-1.png);
   background-size: cover;
+  display: flex;
+  justify-content: space-between;
+
+}
+#footer #foot .containes .bgimg h1{
+font-size: 40px;
+color: white;
+width: 450px;
+}
+#footer #foot .containes .bgimg form{
+  display: flex;
+  gap: 20px;
+  input{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+
+  }
+  button{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+  }
 }
 #footer .footer-text {
   flex-wrap: wrap;
@@ -386,13 +405,11 @@ a {
   color: white;
 }
 
-@media (max-width: 910px) {
+@media (max-width: 1037px) {
+ 
   #foot {
-    width: 100%;
-  }
-  #foot .bgimg {
-    width: 100%;
-    margin: auto;
+  
+display: none;
   }
 }
 @media (max-width: 910px) {
@@ -422,4 +439,8 @@ a {
   height: 50px;
   display: flex;
   justify-content: center;
-} /*# sourceMappingURL=contact.css.map */
+}/*# sourceMappingURL=contact.css.map */
+
+.university{
+  color: #fff;
+}

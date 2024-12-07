@@ -341,17 +341,11 @@ width: 450px;
   color: white;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1037px) {
+ 
   #foot {
-    width: 100%;
-  }
-  #foot .bgimg {
-    width: 100%;
-    margin: auto;
-    top: 10%;
-    h1{
-      font-size: 20px;
-    }
+  
+display: none;
   }
 }
 @media (max-width: 910px) {
