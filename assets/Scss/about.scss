@@ -61,7 +61,7 @@ $hind-font: "Hind Mysuru", sans-serif;
 
 // ! Hero
 #hero {
-  height: 50vh;
+  height: 400px;
   background-image: url(/assets/images/breadcumb-1.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,6 +70,7 @@ $hind-font: "Hind Mysuru", sans-serif;
     height: 100%;
     @include flex(center, center);
     .hero-desc {
+      margin-top: 80px;
       color: white;
       font-family: $inter-font;
 
