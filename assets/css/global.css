@@ -141,7 +141,18 @@ a {
 .mobile-link {
   display: none;
 }
+@media screen and (min-width: 1500px) {
+  .containes {
+    display: grid;
+    grid-template-columns: 1fr min(1440px, 75%) 1fr;
+  }
+}
 @media screen and (max-width: 900px) {
+  .containes {
+    display: grid;
+    grid-template-columns: 1fr min(1440px, 95%) 1fr;
+  }
+
   .nav-top {
     display: none;
   }
@@ -162,7 +173,7 @@ a {
     right: -800px;
     display: block;
     width: 70%;
-    height: 100vh;
+    height: 130vh;
     z-index: 99;
     background-color: rgba(0, 0, 0, 0.4);
     display: flex;

@@ -102,6 +102,7 @@
 
 .sidebar-wrapper {
   margin-top: 60px;
+  margin-bottom: 60px;
   display: grid;
   gap: 3%;
   grid-template-columns: 22% 75%;
@@ -144,4 +145,111 @@
 
 .sidebar-item:last-child {
   border: none;
+}
+
+/* GRID */
+.dasboard-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.dashboard-title {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.dasboard-grid-item {
+  border-radius: 6px;
+  border: 1px solid #ddd8f9;
+  background: #fff;
+  text-align: center;
+  padding: 47px 70px;
+}
+
+.dasboard-grid-icon {
+  background: #f9f8ff;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd8f9;
+}
+
+.dasboard-grid-icon i {
+  color: #553cdf;
+  font-size: 26px;
+}
+
+.dashboard-grid-count span {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+  margin-bottom: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.dashboard-grid-secondary span {
+  margin-bottom: 0;
+  color: #737477;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+
+  font-weight: 400;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 900px) {
+  .user {
+    display: none !important;
+  }
+
+  .user-content h3 {
+    font-size: 24px;
+  }
+  .user-content span {
+    font-size: 18px;
+  }
+  .tutor-wrap {
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 50px;
+    border-radius: 15px;
+    position: relative;
+  }
+
+  .sidebar-wrapper {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: grid;
+    gap: 3%;
+    grid-template-columns: 100%;
+  }
+
+  .sidebar {
+    grid-column: 1 / 2;
+  }
+
+  .sidebar-content {
+    grid-column: 1 / 2;
+  }
+
+  .dasboard-grid-item {
+    width: 100%;
+    margin-top: 15px;
+  }
 }
