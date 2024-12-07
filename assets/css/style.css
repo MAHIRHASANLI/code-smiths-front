@@ -254,10 +254,10 @@
 }
 
 .programs {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     background-color: #ffff;
-    padding: 150px 100px;
+    padding: 150px 0;
 }
 
 .programs h1 {
@@ -313,8 +313,128 @@
 .program-card .list:hover{
     background: #09a24f;
 }
-.scolarship{
+#scolarship{
     width: 80%;
     margin: 0 auto;
     background-image: url("https://studyhub.themewant.com/university/wp-content/uploads/2024/07/scholarship-bg.jpg");
+    height: 400px;
+    background-position: center;
+    position: relative;
+}
+
+.scolarship {
+   position: absolute;
+   top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100px;
+    text-align: center;
+    color: white;
+}
+
+.scolarship h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.scolarship p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+.scolarship .read-more{
+    background: #09a24f;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 17px 40px;
+    margin-top: 20px;
+}
+
+#blogs{
+    width: 80%;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
+#blogs h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+#blogs .title{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #c4c4c4;
+    padding-bottom: 20px;
+}
+#blogs .title p{
+    width: 40%;
+}
+
+.img-blog {
+    position: relative;
+}
+.img-blog .blog-over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.img-blog .user-date{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+.blog-title h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.blog-over .blog-title{
+    margin-top: 20px;
+}
+
+.blogs{
+    display: flex;
+    margin-top: 50px;
+
+}
+.right-blogs{
+    width: 50%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.img-blog-cart{
+    position: relative;
+
+}
+
+.blog-cart{
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    display: flex;
+    gap: 30px;
+    color: rgb(35, 35, 35);
+}
+.blog-cart .user-date{
+    padding: 20px;
+}
+.blog-cart h3{
+    margin-top: 20px;
+    font-size: 20px;
 }
