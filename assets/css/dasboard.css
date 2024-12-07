@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -144,51 +144,51 @@
 
 .accordion-button,
 .accordion-button-groups {
-    background-color: #f1f1f1;
-    color: #444;
-    cursor: pointer;
-    padding: 10px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 16px;
-    transition: 0.4s;
-    display: flex;
-    align-items: center;
+  background-color: #f1f1f1;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
 }
 
 .accordion-button:hover,
 .accordion-button-groups:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 .panel,
 .panel-groups {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-    flex-direction: column;
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  flex-direction: column;
 }
 
 .panel .sidebar-item,
 .panel-groups .sidebar-item {
-    text-decoration: none;
-    color: #737477;
-    font-family: "Poppins", sans-serif;
-    border-bottom: 1px solid #ddd8f9;
+  text-decoration: none;
+  color: #737477;
+  font-family: "Poppins", sans-serif;
+  border-bottom: 1px solid #ddd8f9;
 }
 
 .panel .sidebar-item a,
 .panel-groups .sidebar-item a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .panel .sidebar-item:hover,
 .panel-groups .sidebar-item:hover {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 .sidebar-item {
@@ -257,127 +257,123 @@ button:hover {
   background-color: #078a3e;
 }
 
-
-
-
-.buttons-group{
+.buttons-group {
   display: flex;
   justify-content: space-between;
   gap: 20px;
 }
-.buttons-group button{
+.buttons-group button {
   width: 48%;
   background-color: #7763e6;
 }
-.buttons-group a{
+.buttons-group a {
   width: 48%;
-
 }
-.buttons-group a button{
+.buttons-group a button {
   width: 100%;
 }
 
-table{
+table {
   width: 100%;
   border-collapse: collapse;
   text-align: center;
   margin-top: 20px;
 }
-tr{
+tr {
   border-bottom: 1px solid #ccc;
 }
-th, td{
+th,
+td {
   padding: 10px;
 }
-th{
+th {
   background-color: #f1f1f1;
 }
 
 .accordion-button,
 .accordion-button-groups,
 .accordion-button-tasks {
-    background-color: #f1f1f1;
-    color: #444;
-    cursor: pointer;
-    padding: 10px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 16px;
-    transition: 0.4s;
-    display: flex;
-    align-items: center;
+  background-color: #f1f1f1;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
 }
 
 .accordion-button:hover,
 .accordion-button-groups:hover,
 .accordion-button-tasks:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 .panel,
 .panel-groups,
 .panel-tasks {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-    flex-direction: column;
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  flex-direction: column;
 }
 
 .panel .sidebar-item,
 .panel-groups .sidebar-item,
 .panel-tasks .task-item {
-    padding: 10px 0;
-    text-decoration: none;
-    color: #737477;
-    font-family: "Poppins", sans-serif;
-    border-bottom: 1px solid #ddd8f9;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #737477;
+  font-family: "Poppins", sans-serif;
+  border-bottom: 1px solid #ddd8f9;
 }
 
 .panel .sidebar-item a,
 .panel-groups .sidebar-item a,
 .panel-tasks .task-item label {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .panel .sidebar-item:hover,
 .panel-groups .sidebar-item:hover,
 .panel-tasks .task-item:hover {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 .panel-tasks .task-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .panel-tasks .task-item input {
-    width: 10%;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  width: 10%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .panel-tasks button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #09a24f;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #09a24f;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
 }
 
 .panel-tasks button:hover {
-    background-color: #078a3e;
-
+  background-color: #078a3e;
 }
 
 .material-list {
@@ -482,7 +478,7 @@ button:hover {
   border: 1px solid #ddd8f9;
   background: #fff;
   text-align: center;
-  padding: 47px 70px;
+  padding: 47px 60px;
 }
 
 .dasboard-grid-icon {
