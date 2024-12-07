@@ -208,3 +208,48 @@
   font-weight: 400;
   line-height: 26px;
 }
+
+@media screen and (max-width: 900px) {
+  .user {
+    display: none !important;
+  }
+
+  .user-content h3 {
+    font-size: 24px;
+  }
+  .user-content span {
+    font-size: 18px;
+  }
+  .tutor-wrap {
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 50px;
+    border-radius: 15px;
+    position: relative;
+  }
+
+  .sidebar-wrapper {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: grid;
+    gap: 3%;
+    grid-template-columns: 100%;
+  }
+
+  .sidebar {
+    grid-column: 1 / 2;
+  }
+
+  .sidebar-content {
+    grid-column: 1 / 2;
+  }
+
+  .dasboard-grid-item {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
