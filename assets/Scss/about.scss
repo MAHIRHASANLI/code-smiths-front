@@ -377,7 +377,8 @@ $hind-font: "Hind Mysuru", sans-serif;
 // ! campus
 
 #campus {
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 200px;
   .campus-wrapper {
 @include flex(flex-start,center,column,40px);
     h2 {
@@ -411,3 +412,215 @@ $hind-font: "Hind Mysuru", sans-serif;
     }
   }
 }
+
+// ! footer
+
+#footer{
+    background-color: #181818;
+    padding: 200px 0 100px;
+position: relative;
+    #foot{
+        position: absolute;
+        width: 100%;
+        z-index: 500;
+        margin-top: 100px;
+        top: -40%;
+        .containes{
+            .bgimg{
+                height: 200px;
+        background:linear-gradient(0deg, rgba(38, 255, 0, 0.4), rgba(0, 255, 55, 0.6)), url(../images/breadcumb-1.png);
+      background-size:cover;
+            }
+        }
+        
+    }
+
+    .footer-text{
+    flex-wrap: wrap;
+gap: 30px;
+        display: flex;
+        justify-content: space-between;
+
+            .university{
+                width: 200px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+        
+                .uni-logo{
+                    cursor: pointer;
+                    display: flex;
+                    gap:20px;
+                    i{
+                        font-size: 40px;
+                    }
+                    span{
+                        color: green;
+                    }
+                    h3{
+                        color: white;
+                    }
+                }
+                p{
+                    color: gray;
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+                .location-uni{
+                    display: flex;
+                    gap: 10px;
+                    color: gray;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                .phone-uni{
+                    display: flex;
+                    gap: 10px;
+                    color: gray;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+            }
+        
+            .compus{
+                width: 200px;
+
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h1{
+                    width: 200px;
+                    color: white;
+                    border-bottom: 1px solid white;
+                }
+                .list{
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        li{
+                            list-style: none;
+                            a{
+                                text-decoration: none;
+                                color: gray;
+                                font-size: 20px;
+                                &:hover{
+                                    color: green;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .our-compus{
+                width: 200px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h1{
+                    width: 200px;
+                    color: white;
+                    border-bottom: 1px solid white;
+                }
+                .list{
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        li{
+                            list-style: none;
+                            a{
+                                text-decoration: none;
+                                color: gray;
+                                font-size: 20px;
+                                &:hover{
+                                    color: green;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .post{
+                width: 200px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+                h1{
+                    color: white;
+                    border-bottom: 1px solid white;
+                }
+                .footer-img{
+                    display: flex;
+                    gap: 20px;
+                    img{
+                        width: 80px;
+                        height: 80px;
+                    }
+                    .img-text{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        p{
+                            color: gray;
+                        }
+                        h3{
+                            width: 200px;
+                            color: white;
+                        }
+                    }
+                }
+            }
+    }
+}
+
+
+
+    @media(max-width:910px){
+        #foot{
+            width: 100%;
+            .bgimg{
+            width: 100%;
+                margin: auto;
+            }
+        }
+    }
+
+    @media(max-width:910px){
+        .footer-text{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           gap: 40px;
+            
+        }
+    }  
+      @media(max-width:904px){
+        .footer-text{
+            margin: 0 60%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           gap: 40px;
+            
+        }
+    }
+
+
+    #foot-bot{
+        color: white;
+        background-color: #181818;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+    }
