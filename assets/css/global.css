@@ -1,0 +1,12 @@
+.containes {
+  display: grid;
+  grid-template-columns: 1fr min(1440px, 85%) 1fr;
+}
+
+.containes > * {
+  grid-column: 2;
+}
+
+.containes > .fluid {
+  grid-column: 1 / -1;
+}
