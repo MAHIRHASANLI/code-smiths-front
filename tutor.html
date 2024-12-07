@@ -1,0 +1,91 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASBOARD</title>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/dasboard.css">
+</head>
+
+<body>
+    <section class="containes">
+        <div class="tutor-wrap"
+            style=" background-image:url(https://studyhub.themewant.com/wp-content/uploads/2024/04/instructor-cover.jpg)">
+            <div class="content">
+                <div class="user"
+                    style="background-image:url(https://secure.gravatar.com/avatar/75d23af433e0cea4c0e45a56dba18b30?s=300&d=mm&r=g)">
+                </div>
+                <div class="user-content">
+                    <h3>Admin admin</h3>
+                    <span>0 Course Enrolled • 0 Course Completed</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar-wrapper">
+            <div class="sidebar">
+                <div class="sidebar-item"><a href="student.html" ><i class="fa-solid fa-graduation-cap"></i> Student Managament</a></div>
+                <div class="sidebar-item"><a href="teacher.html"><i class="fa-solid fa-chalkboard-user"></i> Teacher Managament</a></div>
+                <div class="sidebar-item"><a href="tutor.html" style="color: rgb(153, 0, 255);"><i class="fa-solid fa-person-chalkboard"></i>  Tutor Managament</a></div>
+            </div>
+            <div class="sidebar-content">
+                <form class="form">
+                    <h2>Register for Tutor</h2>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="username" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirm-password" name="confirm-password" required>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="role">Select Role</label>
+                        <select id="role" name="role" required>
+                            <option value="admin">Admin</option>
+                            <option value="teacher">Teacher</option>
+                            <option value="student">Student</option>
+                        </select>
+                    </div>
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="./assets/js/global.js"></script>
+
+</body>
+
+</html>
