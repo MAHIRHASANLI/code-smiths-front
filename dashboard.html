@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DASBOARD</title>
+    <title>Dashboard</title>
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
@@ -14,6 +14,21 @@
 </head>
 
 <body>
+    <!-- NAVBAR -->
+    <div class="adminnav-wrapper">
+        <header class="containes">
+            <div class="admin-nav">
+                <div>
+                    <img src="https://studyhub.themewant.com/wp-content/uploads/2023/07/logo-1.svg" alt="">
+                </div>
+                <div class="nav-buttons">
+                    <a href="/login.html" class="btn-login">Login</a>
+                    <a href="/dashboard.html" class="btn-navigation">Dashboard</a>
+                </div>
+            </div>
+    </div>
+    </header>
+    <!-- SECTION -->
     <section class="containes">
         <div class="tutor-wrap"
             style=" background-image:url(https://studyhub.themewant.com/wp-content/uploads/2024/04/instructor-cover.jpg)">
@@ -39,6 +54,10 @@
                             Management</a></div>
                     <div class="sidebar-item"><a href="tutor.html"><i class="fa-solid fa-chalkboard-user"></i> Tutor
                             Management</a></div>
+
+                <div class="sidebar-item"><a href=""><i class="fa-solid fa-gauge"></i> Dasboard</a>
+                </div>
+                <div class="sidebar-item"><a href=""><i class="fa-solid fa-graduation-cap"></i> Student Managament</a>
                 </div>
                 <div class="sidebar-item"><a href="shedule.html">Lesson Shedules</a></div>
                 <button class="accordion-button-groups" style="margin-top: 20px;">Groups</button>
@@ -48,8 +67,33 @@
                 <div class="add-group">
                     <div class="sidebar-item"><a href="addGroup.html">Add student to group</a></div>
                 </div>
+                <div class="sidebar-item"><a href=""><i class="fa-solid fa-blog"></i> Blog Managament</a>
+                </div>
+
             </div>
-            <div class="sidebar-content"></div>
+            <div class="sidebar-content">
+                <div class="dashboard-title">
+                    <h2>Dashboard</h2>
+                </div>
+                <div class="dasboard-grid">
+                    <div class="dasboard-grid-item">
+                        <div class="dasboard-grid-icon"><i class="fa-solid fa-gauge"></i></div>
+                        <div class="dashboard-grid-count"><span>0</span></div>
+                        <div class="dashboard-grid-secondary"><span>Enrolled Courses</span></div>
+                    </div>
+                    <div class="dasboard-grid-item">
+                        <div class="dasboard-grid-icon"><i class="fa-solid fa-gauge"></i></div>
+                        <div class="dashboard-grid-count"><span>0</span></div>
+                        <div class="dashboard-grid-secondary"><span>Enrolled Courses</span></div>
+                    </div>
+                    <div class="dasboard-grid-item">
+                        <div class="dasboard-grid-icon"><i class="fa-solid fa-gauge"></i></div>
+                        <div class="dashboard-grid-count"><span>0</span></div>
+                        <div class="dashboard-grid-secondary"><span>Enrolled Courses</span></div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
 

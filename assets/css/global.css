@@ -1,14 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .containes {
-
   display: grid;
   grid-template-columns: 1fr min(1440px, 90%) 1fr;
-
- 
 }
 
 .containes > * {
@@ -79,7 +76,7 @@ a {
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
-  margin: 0 20px;
+  margin: 0 25px;
   transition: 0.2s all linear;
 }
 
@@ -144,7 +141,18 @@ a {
 .mobile-link {
   display: none;
 }
+@media screen and (min-width: 1500px) {
+  .containes {
+    display: grid;
+    grid-template-columns: 1fr min(1440px, 75%) 1fr;
+  }
+}
 @media screen and (max-width: 900px) {
+  .containes {
+    display: grid;
+    grid-template-columns: 1fr min(1440px, 95%) 1fr;
+  }
+
   .nav-top {
     display: none;
   }
@@ -165,7 +173,7 @@ a {
     right: -800px;
     display: block;
     width: 70%;
-    height: 100vh;
+    height: 130vh;
     z-index: 99;
     background-color: rgba(0, 0, 0, 0.4);
     display: flex;
@@ -220,4 +228,219 @@ a {
     line-height: 26px;
     cursor: pointer;
   }
+}
+
+/* FOOTER */
+#footer {
+  background-color: #181818;
+  padding: 200px 0 100px;
+  position: relative;
+}
+#footer #foot {
+  position: absolute;
+  width: 100%;
+  z-index: 500;
+  margin-top: 100px;
+  top: -40%;
+}
+#footer #foot .containes .bgimg {
+  padding: 50px;
+  height: 200px;
+  background: linear-gradient(0deg, rgba(38, 255, 0, 0.4), rgba(0, 255, 55, 0.6)), url(../images/breadcumb-1.png);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+
+}
+#footer #foot .containes .bgimg h1{
+font-size: 40px;
+color: white;
+width: 450px;
+}
+#footer #foot .containes .bgimg form{
+  display: flex;
+  gap: 20px;
+  input{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+
+  }
+  button{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+  }
+}
+#footer .footer-text {
+  flex-wrap: wrap;
+  gap: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+#footer .footer-text .university {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#footer .footer-text .university .uni-logo {
+  cursor: pointer;
+  display: flex;
+  gap: 20px;
+}
+#footer .footer-text .university .uni-logo i {
+  font-size: 40px;
+}
+#footer .footer-text .university .uni-logo span {
+  color: green;
+}
+#footer .footer-text .university .uni-logo h3 {
+  color: white;
+}
+#footer .footer-text .university p {
+  color: gray;
+  font-size: 18px;
+  line-height: 20px;
+}
+#footer .footer-text .university .location-uni {
+  display: flex;
+  gap: 10px;
+  color: gray;
+}
+#footer .footer-text .university .location-uni i {
+  font-size: 20px;
+}
+#footer .footer-text .university .phone-uni {
+  display: flex;
+  gap: 10px;
+  color: gray;
+}
+#footer .footer-text .university .phone-uni i {
+  font-size: 20px;
+}
+#footer .footer-text .compus {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#footer .footer-text .compus h1 {
+  width: 200px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+#footer .footer-text .compus .list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#footer .footer-text .compus .list ul li {
+  list-style: none;
+}
+#footer .footer-text .compus .list ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+}
+#footer .footer-text .compus .list ul li a:hover {
+  color: green;
+}
+#footer .footer-text .our-compus {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#footer .footer-text .our-compus h1 {
+  width: 200px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+#footer .footer-text .our-compus .list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#footer .footer-text .our-compus .list ul li {
+  list-style: none;
+}
+#footer .footer-text .our-compus .list ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+}
+#footer .footer-text .our-compus .list ul li a:hover {
+  color: green;
+}
+#footer .footer-text .post {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+#footer .footer-text .post h1 {
+  color: white;
+  border-bottom: 1px solid white;
+}
+#footer .footer-text .post .footer-img {
+  display: flex;
+  gap: 20px;
+}
+#footer .footer-text .post .footer-img img {
+  width: 80px;
+  height: 80px;
+}
+#footer .footer-text .post .footer-img .img-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#footer .footer-text .post .footer-img .img-text p {
+  color: gray;
+}
+#footer .footer-text .post .footer-img .img-text h3 {
+  width: 200px;
+  color: white;
+}
+
+@media (max-width: 1037px) {
+ 
+  #foot {
+  
+display: none;
+  }
+}
+@media (max-width: 910px) {
+  .footer-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+@media (max-width: 904px) {
+  .footer-text {
+    margin: 0 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+#foot-bot {
+  color: white;
+  background-color: #181818;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=contact.css.map */
+
+.university{
+  color: #fff;
 }

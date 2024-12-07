@@ -1,0 +1,67 @@
+.register{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    .register-form{
+        width: 500px;
+        padding: 60px 100px;
+          
+
+                border: 1px solid black;
+            .form{
+                width: 500px;
+                height: 500px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                .pasword{
+                    display: flex;
+                    justify-content: center;
+                    gap: 10px;
+                    #pasword{
+                       min-width: 240px;
+                    }
+                    #rpasword{
+                       min-width: 240px;
+
+                    }
+                }
+                input{
+                    height: 40px;
+
+                }
+                .check{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .memory{
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                    }
+                }
+
+                .form-btn{
+                    height: 40px;
+                    background-color: #553CDF;
+                    border: 1px solid #553CDF;
+                    border-radius: 8px;
+                    transition: all 0.5s;
+                    &:hover{
+                        background-color: white;
+                    }
+                }
+                p{
+                    font-size: 20px;
+                        margin-left: 100px;
+                }
+                }
+    
+    }
+
+
+}
+
+

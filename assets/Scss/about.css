@@ -7,7 +7,7 @@
 }
 
 #hero {
-  height: 400px;
+  height: 50vh;
   background-image: url(/assets/images/breadcumb-1.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,7 +22,6 @@
   gap: 0px;
 }
 #hero .hero-wrapper .hero-desc {
-  margin-top: 80px;
   color: white;
   font-family: "Inter", sans-serif;
   display: flex;
@@ -142,7 +141,8 @@
 #graduate .graduate-wrapper .graduate-left img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #graduate .graduate-wrapper .graduate-right .graduate-cards {
   display: flex;
@@ -195,7 +195,8 @@
 #education .education-wrapper .education-left img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #education .education-wrapper .education-right {
   display: flex;
@@ -412,8 +413,7 @@
 }
 
 #campus {
-  padding-top: 50px;
-  padding-bottom: 200px;
+  padding: 50px 0;
 }
 #campus .campus-wrapper {
   display: flex;
@@ -448,192 +448,4 @@
   text-decoration: none;
   color: #36348e;
   font-family: "Inter", sans-serif;
-}
-
-#footer {
-  background-color: #181818;
-  padding: 200px 0 100px;
-  position: relative;
-}
-#footer #foot {
-  position: absolute;
-  width: 100%;
-  z-index: 500;
-  margin-top: 100px;
-  top: -40%;
-}
-#footer #foot .containes .bgimg {
-  height: 200px;
-  background: linear-gradient(0deg, rgba(38, 255, 0, 0.4), rgba(0, 255, 55, 0.6)), url(../images/breadcumb-1.png);
-  background-size: cover;
-}
-#footer .footer-text {
-  flex-wrap: wrap;
-  gap: 30px;
-  display: flex;
-  justify-content: space-between;
-}
-#footer .footer-text .university {
-  width: 200px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-#footer .footer-text .university .uni-logo {
-  cursor: pointer;
-  display: flex;
-  gap: 20px;
-}
-#footer .footer-text .university .uni-logo i {
-  font-size: 40px;
-}
-#footer .footer-text .university .uni-logo span {
-  color: green;
-}
-#footer .footer-text .university .uni-logo h3 {
-  color: white;
-}
-#footer .footer-text .university p {
-  color: gray;
-  font-size: 18px;
-  line-height: 20px;
-}
-#footer .footer-text .university .location-uni {
-  display: flex;
-  gap: 10px;
-  color: gray;
-}
-#footer .footer-text .university .location-uni i {
-  font-size: 20px;
-}
-#footer .footer-text .university .phone-uni {
-  display: flex;
-  gap: 10px;
-  color: gray;
-}
-#footer .footer-text .university .phone-uni i {
-  font-size: 20px;
-}
-#footer .footer-text .compus {
-  width: 200px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-#footer .footer-text .compus h1 {
-  width: 200px;
-  color: white;
-  border-bottom: 1px solid white;
-}
-#footer .footer-text .compus .list ul {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-#footer .footer-text .compus .list ul li {
-  list-style: none;
-}
-#footer .footer-text .compus .list ul li a {
-  text-decoration: none;
-  color: gray;
-  font-size: 20px;
-}
-#footer .footer-text .compus .list ul li a:hover {
-  color: green;
-}
-#footer .footer-text .our-compus {
-  width: 200px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-#footer .footer-text .our-compus h1 {
-  width: 200px;
-  color: white;
-  border-bottom: 1px solid white;
-}
-#footer .footer-text .our-compus .list ul {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-#footer .footer-text .our-compus .list ul li {
-  list-style: none;
-}
-#footer .footer-text .our-compus .list ul li a {
-  text-decoration: none;
-  color: gray;
-  font-size: 20px;
-}
-#footer .footer-text .our-compus .list ul li a:hover {
-  color: green;
-}
-#footer .footer-text .post {
-  width: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-#footer .footer-text .post h1 {
-  color: white;
-  border-bottom: 1px solid white;
-}
-#footer .footer-text .post .footer-img {
-  display: flex;
-  gap: 20px;
-}
-#footer .footer-text .post .footer-img img {
-  width: 80px;
-  height: 80px;
-}
-#footer .footer-text .post .footer-img .img-text {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-#footer .footer-text .post .footer-img .img-text p {
-  color: gray;
-}
-#footer .footer-text .post .footer-img .img-text h3 {
-  width: 200px;
-  color: white;
-}
-
-@media (max-width: 910px) {
-  #foot {
-    width: 100%;
-  }
-  #foot .bgimg {
-    width: 100%;
-    margin: auto;
-  }
-}
-@media (max-width: 910px) {
-  .footer-text {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-  }
-}
-@media (max-width: 904px) {
-  .footer-text {
-    margin: 0 60%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-  }
-}
-#foot-bot {
-  color: white;
-  background-color: #181818;
-  height: 50px;
-  display: flex;
-  justify-content: center;
 }/*# sourceMappingURL=about.css.map */
