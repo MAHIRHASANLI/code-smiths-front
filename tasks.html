@@ -49,7 +49,30 @@
                     <div class="sidebar-item"><a href="addGroup.html">Add student to group</a></div>
                 </div>
             </div>
-            <div class="sidebar-content"></div>
+            <div class="sidebar-content">
+                <div class="buttons-group">
+                    <a href="group.html"><button>All Students</button></a>
+                    <a href="tasks.html"> <button id="tasks" style="background-color: #1900a9;">Tasks</button>
+                    </a>
+                    <a href="materials.html"> <button id="materials">Materials</button>
+                    </a>
+                </div>
+
+                <div class="task-list">
+                    <button class="accordion-button-tasks" style="margin-top: 20px;">Task 1</button>
+                    <div class="panel-tasks">
+                        <div class="task-item">
+                            <label for="student1">Student 1:</label>
+                            <input type="text" id="student1" name="student1" placeholder="Mark">
+                        </div>
+                        <div class="task-item">
+                            <label for="student2">Student 2:</label>
+                            <input type="text" id="student2" name="student2" placeholder="Mark">
+                        </div>
+                        <button type="submit" class="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
