@@ -218,12 +218,12 @@
 }
 @media (max-width: 767px) {
   #percent {
-    background-color: #36348E;
+    background-color: #36348e;
   }
 }
 #percent .percent-wrapper {
   padding: 20px 0;
-  background-color: #36348E;
+  background-color: #36348e;
   width: 80%;
   margin: 0 auto;
 }
@@ -270,5 +270,180 @@
   font-family: "Hind Mysuru", sans-serif;
 }
 #percent .percent-wrapper .percent-cards .percent-card span {
+  font-family: "Inter", sans-serif;
+}
+
+#mission {
+  padding: 80px 0;
+}
+#mission .mission h2 {
+  font-size: 48px;
+  font-family: "Hind Mysuru", sans-serif;
+  text-align: center;
+  margin: 50px 0;
+  color: #1f1f25;
+}
+#mission .mission .mission-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (max-width: 992px) {
+  #mission .mission .mission-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+#mission .mission .mission-wrapper .mission-left {
+  padding-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+#mission .mission .mission-wrapper .mission-left .left {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  padding-right: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 30px;
+}
+@media (max-width: 992px) {
+  #mission .mission .mission-wrapper .mission-left .left {
+    padding: 0;
+    border: none;
+  }
+}
+#mission .mission .mission-wrapper .mission-left .left h3 {
+  font-size: 25px;
+  font-family: "Hind Mysuru", sans-serif;
+  position: relative;
+}
+@media (max-width: 767px) {
+  #mission .mission .mission-wrapper .mission-left .left h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+#mission .mission .mission-wrapper .mission-left .left h3::after {
+  content: "";
+  width: 70px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 18px;
+  right: -84px;
+}
+@media (max-width: 767px) {
+  #mission .mission .mission-wrapper .mission-left .left h3::after {
+    width: 0;
+    height: 0;
+  }
+}
+#mission .mission .mission-wrapper .mission-left .left .desc {
+  text-align: end;
+  width: 60%;
+  color: #777777;
+  font-family: "Inter", sans-serif;
+}
+#mission .mission .mission-wrapper .mission-right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 80px;
+}
+@media (max-width: 992px) {
+  #mission .mission .mission-wrapper .mission-right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0;
+  }
+}
+#mission .mission .mission-wrapper .mission-right .right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+#mission .mission .mission-wrapper .mission-right .right h3 {
+  font-size: 25px;
+  font-family: "Hind Mysuru", sans-serif;
+  position: relative;
+}
+#mission .mission .mission-wrapper .mission-right .right h3::after {
+  content: "";
+  width: 70px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 18px;
+  left: -84px;
+}
+@media (max-width: 767px) {
+  #mission .mission .mission-wrapper .mission-right .right h3::after {
+    width: 0;
+    height: 0;
+  }
+}
+#mission .mission .mission-wrapper .mission-right .right .desc {
+  text-align: end;
+  width: 60%;
+  color: #777777;
+  font-family: "Inter", sans-serif;
+}
+@media (max-width: 992px) {
+  #mission .mission .mission-wrapper .mission-right .right .desc {
+    text-align: center;
+  }
+}
+
+#campus {
+  padding: 50px 0;
+}
+#campus .campus-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+#campus .campus-wrapper h2 {
+  font-size: 48px;
+  font-family: "Hind Mysuru", sans-serif;
+  text-align: center;
+  margin: 50px 0;
+  color: #1f1f25;
+}
+#campus .campus-wrapper h2 .video-img {
+  width: 100%;
+  height: 100%;
+}
+#campus .campus-wrapper h2 .video-img img {
+  width: 100%;
+  height: 100%;
+}
+#campus .campus-wrapper .campus-desc {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  color: #777777;
+  font-family: "Inter", sans-serif;
+}
+#campus .campus-wrapper .campus-link a {
+  text-decoration: none;
+  color: #36348e;
   font-family: "Inter", sans-serif;
 }/*# sourceMappingURL=about.css.map */
