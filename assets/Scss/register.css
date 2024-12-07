@@ -1,0 +1,8 @@
+.register {
+  display: flex;
+  flex-direction: column;
+}
+.register .form {
+  display: flex;
+  width: 700px;
+}/*# sourceMappingURL=register.css.map */
